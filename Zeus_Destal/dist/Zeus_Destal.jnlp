@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Zeus_Destal.jnlp">
+    <information>
+        <title>Zeus_Destal</title>
+        <vendor>naelafm</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="9.0.4+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="Zeus_Destal.jar" size="4635164" download="eager"/>
+        <jar href="lib/xstream-1.4.11.1.jar" size="621071" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="cobacrud.CobaCRUD" name="CobaCRUD"/>
+</jnlp>
+
